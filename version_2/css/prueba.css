@@ -1,0 +1,233 @@
+body {
+    background: linear-gradient(to right, #993300 0%, #cc0000 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    color:white;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: white;
+    position: relative;
+}
+
+h4 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+form p {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+header {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 1em;
+}
+
+section {
+    position: relative;
+    bottom: 120px;
+}
+
+.success {
+    position: absolute;
+    background: green;
+    left: 790px;
+    bottom: -70px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    color:white;
+    
+}
+
+#contacto {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #eed3d7;
+    background: #d90429;
+    font-family: "Lucida Sans";
+    margin-top: -450px;
+    z-index: 50;
+    margin-bottom: 5px;
+    margin-left: 500px;
+    bottom: 400px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    left: 50%;
+    margin-left: -410px;
+    margin-top: -10%;    
+  }
+ #contacto:hover {
+    background: #fff;
+    color: #d90429
+  }
+
+  #trabajos {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #eed3d7;
+    background: #d90429;
+    font-family: "Lucida Sans";
+    margin-top: -450px;
+    z-index: 50;
+    margin-bottom: 5px;
+    margin-left: 1140px;
+    bottom: 435px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    left: 50%;
+    margin-left: 200px;
+    margin-top: -10%;   
+  }
+ #trabajos:hover {
+    background: #fff;
+    color: #d90429
+  }
+
+div {
+    text-align: center;
+}
+
+footer {
+    text-shadow:0em;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lucida Sans"
+}
+
+.trabajos {
+    margin-top: -210px;
+}
+.trabajos__cover {
+    border-radius: 15px;
+    width: 400px;
+}
+
+.trabajos__cover:hover {
+    outline: 3px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+#footer {
+    color:white;
+    margin-top: -3em;
+}
+
+li {
+    list-style:none;
+}
+
+.newsletter-form {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.newsletter-form__input {
+    text-align: center;
+    color: black;
+    width: 200px;
+    height: 30px;
+}
+.newsletter-form__input2 {
+    text-align: center;
+    color: black;
+    width: 200px;
+    height: 30px;
+}
+
+.newsletter-form__btn {
+    position:absolute;
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.newsletter-form__btn:hover {
+    background-color: #cd1e3b; /* Green */
+    color: white;
+}
+
+.logo {
+    position: relative;
+    left: 50%;
+    width: 800px;
+    margin-left: -410px;
+    margin-top: -10%;
+    /* width: 50em;
+    margin: auto;
+    position: relative;
+    left: 50%; */
+    display: inline-block;
+    text-align: center;
+}
+
+/* SECCIÓN TRABAJOS */
+
+.contenedorBeats {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    bottom: 100%;
+    margin-top: -250px;
+    border: 5px solid black;
+}
+
+/* SECCIÓN CONTACTO */
+
+.logosRedes {
+    display: inline-block;
+}
+
+#instagram {
+    position: absolute;
+    width: 400px;
+    margin: auto;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -190px;
+}
+
+#instagram:hover {
+    outline: 3px solid white;
+}
