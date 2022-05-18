@@ -1,0 +1,56 @@
+
+.contenedor {
+    position: relative;
+}
+
+.caja {
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+    background-color: red;
+    transition: all 1s;
+}
+
+.caja:active {
+    background-color: blue;
+    width: 1200px;
+}
+
+
+.caja2 {
+    width: 400px;
+    height: 400px;
+    margin: 25px 1200px;
+    background-color: green;
+    transition: all 1s;
+}
+
+.caja2:active {
+    background-color: rgb(160, 54, 118);
+    height: 800px;
+    transform: rotate(45deg);
+}
+
+.caja3 {
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    transition: all 4s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.caja3:active {
+    background-color: rgb(48, 48, 89);
+    width: 1200px;
+    height: 800px;
+    border: 3px dashed black;
+    transform: rotate(360deg);
+}
+
+
+
