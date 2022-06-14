@@ -192,3 +192,9 @@ footer {
     background-position: center;
     color: white;
 }
+
+@media screen and (max-width: 450px) {
+    .cliente1 {
+        width: 100%;
+    }
+}
