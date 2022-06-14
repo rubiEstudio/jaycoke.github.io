@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(30,30,30,0.8),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://www.civitatis.com/blog/wp-content/uploads/2021/11/cafe-granos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav h1 {
+    color: white;
+    margin-top: 12px;
+}
+
+.opciones-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boton-nav {
+    margin: 10px;
+    background-color: chocolate;
+    color:white;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.boton-nav:hover {
+    background-color:rgb(241, 214, 172);
+    color: black;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 700px) {
+    .opciones-nav {
+        flex-direction: column;
+    }
+}
+
+button {
+    width: 14em;
+    height: 4em;
+    margin-top: 1em;
+    font-size: 1em;
+    border-radius: 7px;
+    box-shadow: 0px 0px 1px white;
+    transition: 0.5s;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: rgb(10,10,10,0.5);
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+h1 {font-size: 2em;}
+h2 {font-size: 3em;}
+p {font-size: 1.5em;}
+ul {list-style: none;}
+
+a {text-decoration: none;
+    color:brown;}
+
+
+
+
+.contenedor-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://images.adsttc.com/media/images/5ca7/72a6/284d/d153/3000/01f2/newsletter/feature-_UC8A1822.jpg?1554477709");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.parte-abajo {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_noticia__medium__webp/public/noticias/tomar_cafe_longevidad_jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 1em;
+}
+
+.parte-abajo h3 {
+    color: white;
+    font-weight: 8000;
+}
+
+.que-dicen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding: 1em;
+}
+
+@media screen and (max-width: 700px) {
+    .que-dicen {
+        flex-direction: column;
+    }
+}
+
+.cliente1 {
+    width: 400px;
+    weight: 400px;
+    border: 4px solid rgb(255, 255, 255, 0.7);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(20px 5px 5px hsl(0deg 0% 0% / 0.5));
+    transition: 0.5s all;
+}
+
+.cliente1 img {
+    width: 50%;
+    height: 50%;
+}
+
+.card-title {
+    font-size: 1.2em;
+}
+
+.cliente1:hover {
+    background-color: rgb(106, 80, 90, 0.3);
+    filter: drop-shadow(20px 5px 5px hsl(0deg 0% 0% / 0.5));
+    cursor:text;
+}
+
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.que-dicen p{font-size: 1.5em;}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(20,20,20,0.7),
+        rgba(1,1,1,0.7)
+    )
+    ,url(https://www.civitatis.com/blog/wp-content/uploads/2021/11/cafe-granos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
